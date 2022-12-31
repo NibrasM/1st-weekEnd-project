@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: block;
+    background: url(../imgs/Model-3-Main-Hero-Desktop-LHD.jfif) no-repeat center center/cover;
+    height: 700px;
+}
+
+#main2 {
+    display: inline;
+    height: 700px;
+}
+
+#main3 {
+    display: block;
+    background: url(../imgs/Model-3-Performance-Hero-Desktop-LHD.jfif) no-repeat center center/cover;
+    height: 500px;
+
+}
+
+html,
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.7em;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+#banner {
+    color: darkslategray;
+    height: 50px;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+}
+
+#banner a {
+    color: darkslategray;
+}
+
+#navbar {
+    background-color: transparent;
+    color: #fff;
+    overflow: auto;
+}
+
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar h1 {
+    float: left;
+    padding: 20px 20px 20px 50px;
+}
+
+
+#navbar ul li {
+    float: left;
+    padding: 20px;
+}
+
+#models ul {
+    list-style: none;
+    float: left;
+    padding-left: 200px;
+}
+
+#menu ul {
+    list-style: none;
+    float: right;
+}
+
+
+#showcase {
+    color: #fff;
+    text-align: center;
+    padding-top: 140;
+}
+
+#showcase h1 {
+    font-size: 40px;
+    line-height: 0.5em;
+}
+
+#showcase a {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#showcase ul {
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.5em;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#showcase ul li a {
+
+    text-decoration: none;
+    color: rgb(136, 134, 134);
+    font-size: 25px;
+}
+
+#tabs li a .hover-text {
+    visibility: hidden;
+    opacity: 0;
+    font-size: 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+.main2 #tabs li a .hover-text {
+    visibility: hidden;
+    opacity: 0;
+    font-size: 10px;
+    display: inline-block;
+    color: rgb(136, 134, 134);
+}
+
+#tabs li a:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
+    font-weight: bolder;
+
+}
+
+#showcase ul li a:hover {
+    text-decoration: none;
+}
+
+#showcase ul li a.current {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main2 #showcase ul li a.current {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#features {
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+#features .box {
+    float: left;
+    width: 21%;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    line-height: 0.5em;
+}
+#features2 {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+#features2 .box {
+    float: left;
+    width: 30.3%;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.2em;
+    margin:15px;
+}
+
+#speedometer {
+    font-size: 30px;
+    line-height: 0.5em;
+}
+
+#features .box p {
+    font-size: 13px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 4px 80px;
+    border: solid;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.753);
+    border-color: #fff;
+}
+
+.btn2 {
+    display: inline-block;
+    font-size: 15px;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgba(22, 21, 21, 0.904);
+}
+
+.btn2:hover {
+    color: #fff;
+    background-color: rgba(22, 21, 21, 0.904);
+    border-color: rgba(22, 21, 21, 0.904);
+    border-radius: 50px;
+}
+
+.btn3 {
+    display: inline;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 4px 30px;
+    border: solid;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+    color: rgba(22, 21, 21, 0.904);
+}
+
+.btn3:hover {
+    color: #fff;
+    background-color: rgba(22, 21, 21, 0.904);
+    border-color: rgba(22, 21, 21, 0.904);
+    border-radius: 3px;
+}
+
+.p-btn{
+    display: inline;
+}
+
+#car-info {
+    height: 600px;
+    display: inline-block;
+}
+
+#car-info .info-img {
+    display: inline;
+    float: left;
+    width: 70%;
+    background: url('../imgs/tesla2.PNG') no-repeat;
+    min-height: 100%;
+    margin-top: 10px;
+}
+
+#car-info .info-content {
+    display: inline;
+    float: right;
+    width: 30%;
+    min-height: 100%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+#car-info .info-content p {
+    padding-bottom: 30px;
+}
+
+#performance {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.per-left {
+    float: left;
+padding-bottom: 20px;
+    padding-right: 150px;
+}
+
+#per-par {
+    color: rgb(99, 98, 98);
+}
+
+#per-par a{
+    color:dimgrey;
+}
